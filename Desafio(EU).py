@@ -11,7 +11,9 @@ saldo = 0
 limite_saque = 500
 extrato = ""
 numero_saques = 0
+numero_depositos = 0
 LIMITE_SAQUE = 3
+LIMITE_DEPOSITO = 10
 
 while True:
     
@@ -20,7 +22,12 @@ while True:
     if opção == "1":
         valor = float(input("Informe seu depósito:"))
 
-        if valor > 0:
+        excedeu_depositos = numero_depositos > LIMITE_DEPOSITO
+
+        if excedeu_depositos:
+            print("Operação inválida! Exceceu o limite de depósitos.")
+        
+        elif valor > 0:
             saldo += valor
             extrato += f"Depósito: R$ {valor:.2f}\n"
             print("Operação realizada com sucesso!")

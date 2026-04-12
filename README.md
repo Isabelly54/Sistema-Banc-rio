@@ -2,6 +2,12 @@
 
 Este projeto tem por objetivo, realizar um simples sistema bancário.
 
+Atualmente, o sistema apresenta duas versões:
+
+##Versão 1.0:
+
+A primeira versão representa um sistema bancário simples, sem funcionalidades muito complexas. 
+
     O Sistema é composto por três opções: 
         Depósito: É possível realizar depósitos de qualquer valor, 
         desde que não seja negativo.

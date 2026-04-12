@@ -16,7 +16,9 @@ A primeira versão representa um sistema bancário simples, utilizando de condic
 A última versão representa a evolução do projeto.
 Agora, as opções do sistema são representadas como funções, delimitando melhor suas funcionalidades e condicionais.
 
-- O Sistema 
+- O Sistema continua com suas funções anteriores e outras duas novas funções:
+- Criar Conta: Permite a criação de uma conta do funcionário que irá sacar ou depositar um valor no banco.
+- Usuário: Habilita o acesso as outras funções, caso já tenha uma conta criada.
 
 ## Ferramentas utilizadas:
 
